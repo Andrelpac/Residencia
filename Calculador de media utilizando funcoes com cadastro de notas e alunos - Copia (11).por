@@ -1,30 +1,4 @@
-programa
-{
-cadeia nomes[30]
-inteiro qtdAlunos,contador
-real notas[30][4] 
-real media[30]
-logico cadastrar
-inteiro condicaoCadastrar		
-	funcao inicio()
-	{	
-		escreva("Deseja realizar cadastro de alunos? \n")
-		escreva("(1) Sim \t (2) Não \n")
-		leia(condicaoCadastrar)
-
-			se(condicaoCadastrar == 1){
-				cadastrar = verdadeiro
-				limpa()
-			}senao se(condicaoCadastrar == 2){
-				limpa()
-				escreva("Caso precise retornar estarei a disposição!")
-				cadastrar = falso
-			}senao{
-				escreva("Digite uma opção válida")
-				cadastrar = falso
-			}
-			
-		cadastrarAlunos(cadastrar)		 			
+programa	 			
 	}
 	
 		funcao cadastrarAlunos(logico teste){
