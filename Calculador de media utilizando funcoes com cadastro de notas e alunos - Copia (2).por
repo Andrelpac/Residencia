@@ -8,9 +8,6 @@ logico cadastrar
 inteiro condicaoCadastrar		
 	funcao inicio()
 	{	
-		escreva("Deseja realizar cadastro de alunos? \n")
-		escreva("(1) Sim \t (2) Não \n")
-		leia(condicaoCadastrar)
 
 			se(condicaoCadastrar == 1){
 				cadastrar = verdadeiro
@@ -128,7 +125,7 @@ inteiro condicaoCadastrar
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1337; 
+ * @POSICAO-CURSOR = 154; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
